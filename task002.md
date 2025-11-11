@@ -20,14 +20,14 @@
 Проверьте, что вы видите своё имя или аватар в правом верхнем углу GitHub.
 Шаг 2. Создание форка (Fork)
 Перейдите по ссылке на исходный репозиторий:
-https://github.com/RooterAI/UP05EDU001
+--https://github.com/RooterAI/UP05EDU001
 В правом верхнем углу страницы найдите зелёную кнопку с надписью Fork.
 Нажмите на неё.
 GitHub спросит: «Where should we fork this repository?» — выберите свой личный аккаунт (не организацию, если вы не уверены).
 Подождите несколько секунд — вас перенаправит на страницу нового репозитория вида:
 
 
- https://github.com/ВАШ_ЛОГИН/UP05EDU001
+--https://github.com/ВАШ_ЛОГИН/UP05EDU001
 Это и есть ваш форк — полная копия оригинального проекта, но теперь он принадлежит вам.
 ⚠️ Важно: форк создаётся только через веб-интерфейс GitHub. Команды типа git fork не существуют — это не операция Git, а функция платформы GitHub. 
 
@@ -44,19 +44,19 @@ GitHub спросит: «Where should we fork this repository?» — выбер�
 bash
 
 
- git clone https://github.com/ВАШ_ЛОГИН/UP05EDU001.git
+--git clone https://github.com/ВАШ_ЛОГИН/UP05EDU001.git
 Перейдите в созданную папку:
 bash
 
 
- cd UP05EDU001
+--cd UP05EDU001
 Вариант B: Через VS Code (графически)
 Откройте VS Code.
 Нажмите Ctrl + Shift + P (или Cmd + Shift + P на Mac) → введите Git: Clone.
 Вставьте URL вашего форка:
 
 
- https://github.com/ВАШ_ЛОГИН/UP05EDU001.git
+--https://github.com/ВАШ_ЛОГИН/UP05EDU001.git
 Выберите папку на компьютере для сохранения проекта.
 Дождитесь завершения клонирования.
 Шаг 4. Проверка и настройка локального репозитория
@@ -64,18 +64,18 @@ bash
 bash
 
 
- git remote -v
+--git remote -v
 Вывод должен содержать:
 
 
- origin  https://github.com/ВАШ_ЛОГИН/UP05EDU001.git (fetch)
- origin  https://github.com/ВАШ_ЛОГИН/UP05EDU001.git (push)
+--origin  https://github.com/ВАШ_ЛОГИН/UP05EDU001.git (fetch)
+--origin  https://github.com/ВАШ_ЛОГИН/UP05EDU001.git (push)
 (Опционально, но рекомендуется) Настройте Git, если ещё не сделали:
 bash
 
 
- git config --global user.name "Ваше Имя"
- git config --global user.email "ваша@почта.github"
+--git config --global user.name "Ваше Имя"
+--git config --global user.email "ваша@почта.github"
 Шаг 5. Подготовка к работе
 Теперь у вас есть:
 
@@ -88,9 +88,9 @@ bash
 bash
 
 
- git add .
- git commit -m "Feat: add new functionality"
- git push origin my-feature
+--git add .
+--git commit -m "Feat: add new functionality"
+--git push origin my-feature
 В будущем — делать Pull Request в оригинальный репозиторий (если это требуется).
 ✅ Ожидаемый результат
 У вас есть форк репозитория UP05EDU001 в вашем аккаунте на GitHub.
@@ -104,4 +104,5 @@ bash
 bash
 
 
- git remote add upstream https://github.com/RooterAI/UP05EDU001.git
+
+--git remote add upstream https://github.com/RooterAI/UP05EDU001.git
